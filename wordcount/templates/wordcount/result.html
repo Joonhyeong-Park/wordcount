@@ -1,0 +1,9 @@
+<h1>result</h1>
+
+전체 : {{ total }}
+<br>
+<br>
+전체 단어 세기 ->
+{% for word, num in dic %}
+{{ word }} : {{ num }}개
+{% endfor %}
